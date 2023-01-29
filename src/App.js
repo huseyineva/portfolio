@@ -1,0 +1,15 @@
+import Experience from "./components/Experience/Experience";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+
+function App() {
+  return (
+    <>
+      <Header />
+      <Experience />
+      <Footer />
+    </>
+  );
+}
+
+export default App;
